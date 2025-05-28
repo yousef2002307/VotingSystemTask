@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ asset('css/polls.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/polls.css') }}">
 </head>
 <body>
     <div class="container mt-4">
@@ -96,6 +96,6 @@
     <!-- Bootstrap 5 JS CDN (with Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
-    <script src="{{ asset('js/polls.js') }}"></script>
+    <script src="{{ secure_asset('js/polls.js') }}"></script>
 </body>
 </html> 

@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Login</title>
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
 </head>
 <body>
     <div class="container">
@@ -23,6 +23,6 @@
         </form>
         <p>Don't have an account? <a href="{{ route('register') }}">Register here</a></p>
     </div>
-    <script src="{{ asset('js/script.js') }}"></script>
+    <script src="{{ secure_asset('js/script.js') }}"></script>
 </body>
 </html> 

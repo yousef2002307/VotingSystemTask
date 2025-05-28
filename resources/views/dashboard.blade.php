@@ -11,17 +11,18 @@
                 <div class="p-6 text-gray-900">
                     {{ __("You're logged in!") }}
 
-                    {{-- Button to My Polls page --}}
-                    <div class="mt-4">
-                        <a href="{{ route('polls.index') }}" class="btn btn-primary">My Polls</a>
-                    </div>
+                    <div class="mt-4 space-y-4">
+                        <a href="{{ route('polls.index') }}" class="inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700">
+                            Manage My Polls
+                        </a>
 
-                    {{-- Button to Other Polls page --}}
-                    <div class="mt-4">
-                        <a href="{{ route('polls.public') }}" class="btn btn-secondary">Vote on Other Polls</a>
+                        <a href="{{ route('polls.public') }}" class="inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 ml-4">
+                            Vote on Other Polls
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </x-app-layout>

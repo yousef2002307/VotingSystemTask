@@ -29,6 +29,6 @@
     <!-- Bootstrap 5 JS CDN (with Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
-    <script src="{{ asset('js/public_polls.js') }}"></script>
+    <script src="{{ secure_asset('js/public_polls.js') }}"></script>
 </body>
 </html> 
